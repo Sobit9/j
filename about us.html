@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta name="viewport" content="with=device-width, initail-scale=1.0">
+  <title>S.O.E Block-B Website</title>
+  <link rel="stylesheet" href="new.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;1,100;1,400;1,700&display=swap"
+    rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css">
+    <script src="https://kit.fontawesome.com/a813499c5a.js" crossorigin="anonymous"></script>
+ <body>
+  <section class ="header">
+    <nav>
+        <a href="new.html"><img src="pulogo.png"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" aria-hidden="true" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="new.html">HOME</a></li>
+                <li><a href="">NOTES</a></li>
+                <li><a href="Courses.html">COURSE</a></li>
+                <li><a href="">NOTICE</a></li>
+                <li><a href="Contact.html">CONTACT US</a></li>
+                <li><a href="about%20us.html">ABOUT-US</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" aria-hidden="true" onclick="showMenu()"></i>
+    </nav>
+    <h1>About Us</h1>
+    
+        <div class="row">
+            <div class="about-col">
+                <h1>Introduction</h1>
+                <p>
+                    School of Engineering comes under the the Faculty of Science and Technology. It was established in 1997 under the Pokhara University Act. In 1997. PU has adopted four years Bachelor's Programs of Engineering based on credit-semester system. An academic year of the University consists of two semesters of 16 weeks each.</p>
+                <h1>Objective</h1>
+                <p>.To conduct an array of effective and useful programs recognizing the need of adequately qualified and capable professionals in various disciplines of Applied Science and Engineering.</p>
+                    <a href="file:///C:/Users/Acer%20Nitro/Desktop/html/new.html" class="btn red-btn">Explore Now</a>
+                </div>
+                <div class="about-col">
+                    <img src="classroom.jpg">
+                </div>
+            </div>
+  </section>
+
+
+        
+<!----- footer ---->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>School of Engineering comes under the the Faculty of Science and Technology. It was established in 1997 under the Pokhara University Act. In 1997. PU has adopted four years Bachelor's Programs of Engineering based on credit-semester system. An academic year of the University consists of two semesters of 16 weeks each.</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+    </div>
+    <p>Made with <i class="fa fa-star-and-crescent"></i> HTML and CSS</p>
+</section>
+
+<!------JavaScript for TOggle Menu------->
+<script>
+    
+    var navLinks = Document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+
+
+ </body>
+</html>
