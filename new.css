@@ -9,10 +9,36 @@
   background-image: linear-gradient(rgba(4,9,30,0.7),rgba(7, 9, 18, 0.7)),url(about-us.jpg);
   background-position: center;
   background-size: cover;
-  position: relative;
+  position: inherit;
   color: white;
   text-align: center;
 }
+.header1{
+  min-height: 10vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(4,9,30,0.7),rgba(7, 9, 18, 0.7)),url(about.jpg);
+  background-position: center;
+  background-size: cover;
+  position: inherit;
+  color: white;
+  text-align: center;
+}
+.co{
+  text-align: center;
+}
+.courses{
+  min-height: 80vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(4,9,30,0.7),rgba(7, 9, 18, 0.7)),url(about-us.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  position: inherit;
+  color: rgb(244, 237, 237);
+  text-align: center;
+}
+
+
 nav{
 
 display: flex;
@@ -401,5 +427,55 @@ h3{
   padding: 15px;
   margin-bottom: 17px;
   outline: none;
-  border: 1px solid rgb(126, 115, 151);
+  border: 1px solid rgb(237, 235, 240);
+}
+.table-box{
+  margin: 50px auto;
+}
+
+.table-row{
+  display: table;
+  width: 80%;
+  margin: 10px auto;
+  font-family: sans-serif;
+  background: transparent;
+  background-color: #fff3f3;
+  padding: 12px 0;
+  color: rgb(228, 25, 25);
+  font-size: 14px;
+  box-shadow: 0px 1px 4px rgba(0, 0, 50, 0.3);
+
+}
+.table-row1{
+  display: table;
+  width: 80%;
+  margin: 10px auto;
+  font-family: sans-serif;
+  background: transparent;
+  background-color: #17e0f6;
+  padding: 12px 0;
+  color: rgb(228, 25, 25);
+  font-size: 14px;
+  box-shadow: 0px 1px 4px rgba(0, 0, 50, 0.3);
+}
+.table-cell{
+  display: table-cell;
+  width: 10%;
+  text-align: center;
+  padding: 4px 0;
+  border-right: 1px solid #0ff945;
+  vertical-align: middle;
+  color: rgb(5, 4, 4);
+}
+.table-cell p{
+  color: rgb(8, 8, 8);
+    font-size: 19px;
+  font-weight: bold;
+  text-shadow: black;
+}
+.courses{
+  text-align: left;
+}
+.table-box{
+  text-align: center;
 }
