@@ -6,6 +6,7 @@
   <link rel="stylesheet" href="new.css">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css">
 <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;1,100;1,400;1,700&display=swap"
     rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css">
@@ -16,10 +17,10 @@
     <nav>
         <a href="new.html"><img src="pulogo.png"></a>
         <div class="nav-links" id="navLinks">
-            <i class="fa fa-times" aria-hidden="true" onclick="hideMenu()"></i>
+            <i class="fa fa-times" onclick="hideMenu()"></i>
             <ul>
                 <li><a href="new.html">HOME</a></li>
-                <li><a href="Notes.html">NOTES</a>
+                <li><a href="#">NOTES</a>
                     <div class="sub-menu">
                         <ul>
                             <li><a href="Computer-Notes.html">Computer Notes</a></li>
@@ -27,7 +28,7 @@
                             <li><a href="Electrical-Notes.html">Electrical Notes</a></li>
                         </ul>
                     </div></li>
-                <li><a href="Courses.html">COURSE</a>
+                <li><a href="#">COURSE</a>
                     <div class="sub-menu">
                         <ul>
                             <li><a href="Computer-Courses.html">Computer Courses</a></li>
@@ -35,12 +36,12 @@
                             <li><a href="Electrical-Courses.html">Electrical Courses</a></li>
                         </ul>
                     </div></li>
-                <li><a href="">NOTICE</a></li>
+                <li><a href="#">NOTICE</a></li>
                 <li><a href="Contact.html">CONTACT US</a></li>
                 <li><a href="about us.html">ABOUT-US</a></li>
             </ul>
         </div>
-        <i class="fa fa-bars" aria-hidden="true" onclick="showMenu()"></i>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
     </nav>
     <div class="text-box">
         <h1>School of engineering Block-B,PU</h1>
@@ -160,7 +161,7 @@
 <!------JavaScript for TOggle Menu------->
 <script>
     
-    var navLinks = Document.getElementById("navLinks");
+    var navLinks = document.getElementById("navLinks");
 
     function showMenu(){
         navLinks.style.right = "0";
